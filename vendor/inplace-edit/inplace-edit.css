@@ -1,0 +1,82 @@
+/*!
+  (c) Inplace Edit
+*/.inplace-edit-container { z-index: 9999; }
+
+.inplace-edit-container textarea {
+	float: left;
+	line-height: 1.4em;
+	margin: 0;
+	min-height: 200px;
+	}
+
+.inplace-edit-container input[type="text"] {
+	height: auto;
+	margin: 0;
+	min-width: 200px;
+	padding: 10px;
+	z-index: 9999;
+	}
+
+.inplace-edit-container .button-pane { float: left; }
+.inplace-edit-container .button-pane .entry-utility-container ul { list-style-type: none; }
+.inplace-edit-container .button-pane .entry-utility-container ul li { display: inline; }
+.inplace-edit-container .zm-default-single-container textarea { position: relative; z-index: 10; }
+.inplace-edit-container .zm-default-form-container { background: #F2F2F2;
+	float: left;
+	border-radius: 0 0 5px 5px;
+	width: 110px;
+	position: relative;
+	top: 0;
+	left: 10px;
+	padding: 5px;
+	border: solid #BBB;
+	border-image: initial;
+	box-shadow: 0px 3px 1px rgba(0,0,0,0.1) inset;
+	z-index: 0;
+	border-width: 0 1px 1px 1px;
+	}
+
+.inplace-edit-container .button-container ul {
+	margin: 0;
+	}
+
+.inplace-edit-container .button {
+	background: -moz-linear-gradient(center top , #F9F9F9, #E3E3E3);
+	background: -webkit-linear-gradient(top , #F9F9F9, #E3E3E3);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F9F9F9), color-stop(100%, #E3E3E3));
+	background: linear-gradient( #F9F9F9, #E3E3E3);
+	-o-transition: border-top-color 0.218s,border-right-color 0.218s,border-bottom-color 0.218s,border-left-color .218s;
+	-moz-transition: border-top-color 0.218s,border-right-color 0.218s,border-bottom-color 0.218s,border-left-color .218s;
+	-webkit-transition: border-top-color 0.218s,border-right-color 0.218s,border-bottom-color 0.218s,border-left-color .218s;
+	border: 1px solid;
+	border-radius: 5px;
+	border-left: 1px solid #BBB;
+	border-color: #CCC #BBB #A0A0A0;
+	cursor: pointer;
+	color: green;
+	font: bold 12px/1 "Helvetica Neue", sans-serif, arial;
+	margin-right: 20px;
+	padding: 5px 10px;
+	width: 50px;
+	}
+
+.inplace-edit-container .button a {
+	color: #00AECF;
+	font-weight: bold;
+	letter-spacing: 0.3px;
+	text-shadow: 1px 1px 0 white;
+	}
+
+.inplace-edit-container .button:hover.button {
+	border-radius: 5px;
+	border-color: #939393;
+	border-style: solid;
+	border-width: 1px;
+	background: -moz-linear-gradient(center top , #F9F9F9, #E3E3E3);
+	background: -webkit-linear-gradient(top , #F9F9F9, #E3E3E3);
+	text-decoration: none;
+	}
+
+.inplace-edit-container a.exit {
+	color: red;
+	}

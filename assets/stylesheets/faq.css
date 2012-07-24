@@ -1,0 +1,6 @@
+/*This is your css file for the faq model, controller */
+.faq-container .main-container {
+    float: left;
+    margin-top: 25px;
+    width: 780px;
+    }

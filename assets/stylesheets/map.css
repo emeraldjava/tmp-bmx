@@ -1,0 +1,28 @@
+/*This is your css file for the map model, controller */
+.maps-container {
+    height: 100%;
+    margin-bottom: 50px;
+    }
+
+.maps-container .count {
+    background: -webkit-linear-gradient(top , #F9F9F9, #DDD9D9);
+    background: -moz-linear-gradient(top , #F9F9F9, #DDD9D9);
+    background: -o-linear-gradient(top , #F9F9F9, #DDD9D9);
+    background: -ms-linear-gradient(top , #F9F9F9, #DDD9D9);
+    background: linear-gradient(top , #F9F9F9, #DDD9D9);
+    padding: 1px 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #CCC #BBB #A2A0A0;
+    color: #8F8F8F;
+    margin-left: 3px;
+    font-weight: bold;
+    }
+
+.maps-container ul.inline {
+    height: 20px;
+    }
+
+.maps-container ul.inline .bar {
+    margin: 0 5px;
+    }

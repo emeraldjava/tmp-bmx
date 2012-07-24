@@ -1,0 +1,1 @@
+/*This is your js file for the faq model, controller */

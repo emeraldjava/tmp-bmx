@@ -1,0 +1,54 @@
+.taxonomy-zm-quote-tracker .hentry { 
+	position: relative; 
+	}
+
+.zm-ajax-post-container { 
+	position: absolute;
+	}
+
+.zm-ajax-post-container { 
+	-webkit-background-clip: border;
+	-webkit-background-clip: padding;
+	background: white;
+	background-clip: padding-box;
+	border: 5px solid rgba(0, 0, 0, .1);
+	font-weight: normal; 
+	width: 400px;
+	padding: 10px;
+	position: absolute;
+	opacity: 0.9;
+	top: 0;
+	left: 0;
+	z-index: 1; 
+	}
+
+.zm-ajax-post-container .post-title { 
+	font-weight: bold; 
+	}
+
+.zm-ajax-post-container .post-content {}
+
+.zm-ajax-post-container .post-content p {
+	background: #ffc;
+	display: inline;
+	font-family: times;
+	font-style: italic;
+	font-size: 19px;
+	line-height: 1.4em;
+	}
+
+.zm-ajax-post-container .navigation-container { 
+	color: #ccc; 
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase; 
+	margin-top: 10px;
+	}
+
+.zm-ajax-post-container .navigation-container a { 
+	color: #ccc; 
+	}
+
+.zm-ajax-post-container .navigation-container .spacer { 
+	margin: 0 10px; 
+	}

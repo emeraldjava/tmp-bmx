@@ -1,0 +1,328 @@
+/*This is yor css file for the events model/controller */
+/*= Create Event
+-------------------------------------------------------------- */
+.bmx-rs-create-event-container .right {
+    float: left;
+    }
+
+.bmx-rs-create-event-container .right {
+    float: right;
+    }
+
+.bmx-rs-create-event-container .row .add-on {
+    float: left;
+    background: #E0E0E0;
+    padding: 5px 8px 6px;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 1px 1px 3px #CCC inset;
+    text-shadow: 1px 1px 0 white;
+    }
+
+.bmx-rs-create-event-container .row label:empty {
+    display: none;
+    }
+
+.bmx-rs-create-event-container .row input.time {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 10%;
+    }
+
+.bmx-rs-create-event-container .row .add-on {
+
+    }
+
+.bmx-rs-create-event-container .row input.fee {
+
+    }
+
+.bmx-rs-create-event-container .row input[type="text"].fee {
+    width: 50%;
+    }
+
+.bmx-rs-create-event-container fieldset {
+
+    }
+
+.bmx-rs-create-event-container fieldset.last {
+    margin: 0;
+    }
+
+.bmx-rs-create-event-container fieldset.entry-fee-container {
+    float: left;
+    }
+
+.bmx-rs-create-event-container fieldset.type-container {
+    float: left;
+    width: 120px;
+    }
+
+.bmx-rs-create-event-container fieldset.bmx_rs_tag-container select {
+    width: 100%;
+    }
+
+.bmx-rs-create-event-container fieldset.bmx_rs_tag-container {
+    float: left;
+    margin-right: 0;
+    }
+
+.bmx-rs-create-event-container .chzn-container {
+    float: left;
+    margin: 0 10px 0 0;
+    }
+
+.bmx-rs-create-event-container form input.date {
+    margin-right: 10px;
+    width: 120px;
+    }
+/*= End Form
+-------------------------------------------------------------- */
+
+
+.events-container .hentry p {
+    line-height: 1.4em;
+    }
+
+.events-search-container .logo-sprite {
+    background-position: -305px 0;
+    }
+
+.events-search-container .header-container {
+    height: 351px;
+    left: 1px;
+    }
+
+.events-search-container .header-container .search-bar-container {
+    margin-left: 344px;
+    text-align: left;
+    }
+
+.events-search-container .header-container .search-bar-container .listing-container {
+    display: none;
+    }
+
+.events-search-container .main-container {
+    float: left;
+    width: 450px;
+    }
+
+.events-search-container .search-bar-container form {
+    padding-top: 10px;
+    }
+
+/*= Directions Panel
+-------------------------------------------------------------- */
+#directionsPanel {
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: -5px 0px 20px -10px rgba( 0, 0, 0, 0.5) inset;
+    width: 215px;
+    float: left;
+    height: 242px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+
+#directionsPanel {
+    position: absolute;
+    }
+
+#directionsPanel .adp-step,
+#directionsPanel .adp-substep {
+    border-top: 1px solid #e6e6e6;
+    }
+
+#directionsPanel .adp-placemark {
+    background: transparent;
+    }
+
+#directionsPanel .adp-summary {
+    color: #A6A6A6;
+    padding: 10px 0 0 10px;
+    float: left;
+    margin: -30px 0 0 33px;
+    }
+
+#directionsPanel .adp-distance {
+    color: #A6A6A6;
+    }
+
+#directionsPanel .adp-legal {
+    color: #A6A6A6;
+    float: left;
+    padding: 10px;
+    }
+
+#directionsPanel table.adp-directions {
+    width: 400px;
+    }
+
+#directionsPanel table.adp-directions tr {
+    background: none;
+    }
+
+#directionsPanel table.adp-placemark tr {
+    background: none;
+    }
+
+#directionsPanel table tr td.adp-text {
+    vertical-align: middle;
+    margin: 0;
+    padding:0;
+    }
+
+#directionsPanel table.adp-placemark {
+    border: 0;
+    margin: 0;
+    }
+/*= End Directions Panel
+-------------------------------------------------------------- */
+
+
+/*= Edit Details
+-------------------------------------------------------------- */
+.bmx-rs-edit-details-container label:empty {
+    display: none;
+    }
+
+.bmx-rs-edit-details-container fieldset.city-container,
+.bmx-rs-edit-details-container fieldset.state-container,
+.bmx-rs-edit-details-container fieldset.track-container,
+.bmx-rs-edit-details-container fieldset.point-scale-container {
+    width: 120px;
+    margin-bottom: 10px;
+    }
+
+.bmx-rs-edit-details-container fieldset.city-container select,
+.bmx-rs-edit-details-container fieldset.state-container select,
+.bmx-rs-edit-details-container fieldset.track-container select,
+.bmx-rs-edit-details-container fieldset.point-scale-container select {
+    float: left;
+    width: 110px;
+    }
+
+.bmx-rs-edit-details-container fieldset.bmx_rs_tag-container select {
+    width: 515px;
+    }
+/*= End Details
+-------------------------------------------------------------- */
+
+/*= Custom, i.e. names that are generated via content from the db
+-------------------------------------------------------------- */
+fieldset.state-container,
+fieldset.city-container,
+fieldset.track-container { float: left; width: 400px;}
+
+fieldset.state-container select,
+fieldset.city-container select,
+fieldset.track-container select { width: 420px; }
+
+fieldset.entry-fee-container {
+    float: left;
+    width: 90px;
+    }
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+
+fieldset.entry-fee-container label {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    }
+
+fieldset.point-scale-container {
+    float: left;
+    width: 90px;
+    }
+
+fieldset.point-scale-container label {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    }
+
+fieldset.datetime-start-container {
+    margin-right: 20px;
+}
+
+fieldset.datetime-start-container,
+fieldset.datetime-end-container {
+    float: left;
+    }
+
+fieldset.datetime-start-container input,
+fieldset.datetime-end-container input {
+    margin: 0;
+    }
+/*= End
+-------------------------------------------------------------- */
+
+
+/*= Start
+-------------------------------------------------------------- */
+.image-container {
+    margin-bottom: 10px;
+    }
+
+.image-container a {
+    float: left;
+    }
+
+.image-container img {
+    padding: 1px;
+    border: 1px solid #CCC;
+    }
+/*= End
+-------------------------------------------------------------- */
+
+
+/*= Start -- These are tempoary until we have tabs
+-------------------------------------------------------------- */
+.events-container .single-container .row-container .row .left {
+    float: none;
+    margin-bottom: 10px;
+    }
+
+.events-container .single-container .row-container .row .right {
+    float: none;
+    width: 100%;
+    }
+
+.events-container .single-container .row-container .row .static-map-image img {
+    width: 450px;
+    }
+
+.events-container .single-container .row-container .row .weather-container img {
+    width: auto;
+    }
+/*= End
+-------------------------------------------------------------- */
+
+
+/*= Calendar
+-------------------------------------------------------------- */
+.events-container .calendar-wrapper .calendar-container {
+    margin: 0 15px 10px 0;
+    }
+/*= End
+-------------------------------------------------------------- */
+
+
+/*= New Events page
+-------------------------------------------------------------- */
+.new-events-container form .row {
+    margin: 0 0 15px 0;
+    }
+
+.new-events-container form .row input[type="text"] {
+    width: 97%;
+    }
+
+.new-events-container .button-container .exit {
+    display: none;
+    }
+/*= End
+-------------------------------------------------------------- */
