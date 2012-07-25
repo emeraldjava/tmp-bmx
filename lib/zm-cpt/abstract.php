@@ -347,23 +347,25 @@ abstract class zMCustomPostTypeBase implements zMICustomPostType {
      * @todo DON'T print from an index, print from $i
      */
     public function createPostTypeDiv(){
-        if ( is_user_logged_in() ) : ?>
-        <div id="create_ticket_dialog" class="dialog-container" title="Add a new <em><?php print $this->post_type[0]['name']; ?></em>">
-            <div id="bmx_rs_create_event_target" style="display: none;"></div>
-        </div>
-        <?php endif;
+        if ( is_user_logged_in() ) 
+        { 
+	        print '<div id="create_ticket_dialog" class="dialog-container" title="Add a new"<em>'.$this->post_type[0]['name'].'</em>';
+			print '<div id="bmx_rs_create_event_target" style="display: none;"></div>';
+	        print '</div>';
+        }
     }
 
     /**
      * @todo this should not load if there is NO 'cpt'
      */
     public function createDeleteDiv(){
-        if ( is_user_logged_in() ) : ?>
-        <div id="delete_dialog" class="dialog-container" style="display: none;">
-            <p>Are you sure you want to Delet this item?</p>
-            <div id="delete_target" style="display: none"></div>
-        </div>
-        <?php endif;
+        if ( is_user_logged_in() ) 
+        {
+	        print '<div id="delete_dialog" class="dialog-container" style="display: none;">';
+	        print '<p>Are you sure you want to Delet this item?</p>';
+	        print '<div id="delete_target" style="display: none"></div>';
+	        print '</div>';
+        }
     }
 
     public function metaSection(){
