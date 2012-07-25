@@ -124,10 +124,10 @@ if ( is_home() ) {
 ?>
 <div class="tabs-container tabs-handle">
     <ul>
-        <li><a href="#locals-current-month"><?= $current_month; ?> <span class="count">{{count_current_locals}}</span></a></li>
-        <li><a href="#locals-next-month"><?= $next_month; ?> <span class="count">{{count_next_locals}}</span></a></li>
-        <li><a href="#locals"><?= $upcoming; ?> <span class="count">{{count_all_locals}}</span></a></li>
-        <li><a href="#nationals"><?= $nationals; ?> <span class="count">{{count_nationals}}</span></a></li>
+        {{#count_current_locals}}<li><a href="#locals-current-month"><?= $current_month; ?> <span class="count">{{count_current_locals}}</span></a></li>{{/count_current_locals}}
+        {{#count_next_locals}}<li><a href="#locals-next-month"><?= $next_month; ?> <span class="count">{{count_next_locals}}</span></a></li>{{/count_next_locals}}
+        {{#count_all_locals}}<li><a href="#locals"><?= $upcoming; ?> <span class="count">{{count_all_locals}}</span></a></li>{{/count_all_locals}}
+        {{#count_nationals}}<li><a href="#nationals"><?= $nationals; ?> <span class="count">{{count_nationals}}</span></a></li>{{/count_nationals}}
     </ul>
     <div id="locals-current-month">
         <div class="row-container">
